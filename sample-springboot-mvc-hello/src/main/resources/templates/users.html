@@ -1,0 +1,19 @@
+<html>
+<body>
+     <p>People in list:</p>
+     <ul>
+     {{#u}}
+           <li>{{.}}</li>
+     {{/u}}
+     </ul>
+     <p>people in table:</p>
+     <table>
+     {{#u}}
+           <tr>
+           <td>{{-index}}</td>
+           <td>{{.}}</td>
+           </tr>
+{{/u}}
+     </table>
+</body>
+</html>
