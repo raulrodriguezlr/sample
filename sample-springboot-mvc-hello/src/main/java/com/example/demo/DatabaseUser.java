@@ -15,7 +15,7 @@ public class DatabaseUser {
 	@PostConstruct
 	public void userDB() {
 		blogUserRepository.saveAll(Arrays.asList(
-			new Usuario("Pepe", "Sanchez", 48201145),
+			new Usuario("Perro", "Sanchez", 48201145),
 			new Usuario("Raul", "Rodriguez", 48205513),
 			new Usuario("Jorge", "Rodriguez ", 48205515)));
 	} 
