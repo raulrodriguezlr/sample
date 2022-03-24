@@ -17,6 +17,7 @@ public class DatabaseUser {
 		blogUserRepository.saveAll(Arrays.asList(
 			new Usuario("Perro", "Sanchez", 48201145),
 			new Usuario("Raul", "Rodriguez", 48205513),
+			new Usuario("Daniel", "Requena", 69696969),
 			new Usuario("Jorge", "Rodriguez ", 48205515)));
 	} 
 }
